@@ -17,6 +17,10 @@ app.use(cors({
     credentials: true,            
 }));
 
+app.get('/', (req,res,next) =>{
+    res.send("Hello");
+});
+
 app.use('/expense', expenseRoutes);
 app.use('/user', userRoutes);
 
