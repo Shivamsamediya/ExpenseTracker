@@ -1,4 +1,4 @@
-# Expense Tracker Project - Interview Questions & Answers
+# Expense Tracker Project
 
 ## Project Overview
 **Expense Tracker** is a full-stack web application built with React.js (frontend) and Node.js/Express.js (backend) that allows users to track, categorize, and visualize their expenses with authentication and data visualization features.
