@@ -12,7 +12,7 @@ const Register = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post(`${import.meta.env.VITE_BASE_URL}/user/register`, { Name, email, password });
+      const res = await axios.post(`${import.meta.env.VITE_BASE_URL}/user/register`, { name : Name, email, password });
       toast.success("Signup Successful!!")
 
       localStorage.setItem('token', res.data.token);
